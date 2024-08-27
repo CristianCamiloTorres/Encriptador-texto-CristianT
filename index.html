@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="ImagenesEncriptador/alura.svg" alt="Logo de Alura" class="logo">
+    </header>
+    <main>
+        <div class="container">
+            <section class="text-section">
+                <h2>Ingrese el texto aquí</h2>
+                <textarea id="text-input" placeholder="Introduce el texto aquí..."></textarea>
+                <div class="button-group">
+                    <button id="encrypt-btn" class="action-btn">Encriptar</button>
+                    <button id="decrypt-btn" class="action-btn">Desencriptar</button>
+                </div>
+            </section>
+            <section class="output-section">
+                <div class="output-content">
+                    <img src="ImagenesEncriptador/muneco.svg" alt="Imagen de muñeco" class="side-image">
+                    <p id="output-message">Ningún mensaje fue encontrado<br>Ingresa el texto que deseas encriptar o desencriptar.</p>
+                </div>
+                <textarea id="text-output" readonly></textarea>
+                <div class="button-group">
+                    <button id="copy-btn" class="action-btn">Copiar</button>
+                    <button id="clear-btn" class="action-btn">Limpiar</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Creado por Cristian Camilo Torres Alfonso - 2024</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
