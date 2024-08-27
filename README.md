@@ -1,0 +1,2 @@
+<h1>Sistema de encriptado de texto</h1>
+Para encriptar el texto deseado, simplemente ingresa el texto en el campo proporcionado y haz clic en el botón 'Encriptar'. El texto encriptado aparecerá de inmediato en el área de resultado. Si deseas desencriptar un texto, sigue el mismo proceso y haz clic en el botón 'Desencriptar'. También puedes copiar el resultado o limpiar el campo utilizando los botones correspondientes. 
